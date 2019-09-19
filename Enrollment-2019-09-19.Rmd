@@ -1,0 +1,16 @@
+---
+title: "Enrollment-2019-09-19"
+author: "Grace Rotondo"
+date: "9/19/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readxl)
+library(tidyverse)
+```
+```{r}
+x <- read_xlsx ("class_enrollment.xlsx", skip  = 3) 
+```
+
